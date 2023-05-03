@@ -1,0 +1,11 @@
+{
+  "name": "assignments3",
+  "version": "1.0.0",
+  "description": "the third assignment",
+  "main": "App.js",
+  "scripts": {
+    "test": "node App.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
