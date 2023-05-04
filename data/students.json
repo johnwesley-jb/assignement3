@@ -1,0 +1,18 @@
+[
+{
+    "id":1,
+	"name": "Jack",
+	"gpa": 3.0
+},
+
+{
+     "id":2,
+	"name": "Jill",
+	"gpa":3.5 
+},
+{
+     "id":3,
+	"name": "Jasmin",
+	"gpa": 3.8
+}
+]

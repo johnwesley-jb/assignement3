@@ -1,7 +1,14 @@
 const express = require("express");
 const app = express();
-const PORT = 3000;
+const path = require("path");
+const router = require("./routes");
+require("dotenv").config();
 
-const server = app.listen(PORT, () => {
-  console.log("Listen to PORT: " + server.address.PORT);
+app.use("/api", router);
+app.use(express.urlencoded({ extended: true }));
+
+app.use(express.static(path.join(__dirname, "public")));
+
+const server = app.listen(process.env.PORT, () => {
+  console.log("Listen to PORT: " + process.env.PORT);
 });
